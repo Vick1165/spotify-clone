@@ -19,6 +19,7 @@
 .header_left > input {
   border: none;
   width: 100%;
+  outline: none;
 }
 
 .header_right {
@@ -27,4 +28,8 @@
 }
 .header_right > h4 {
   margin-left: 10px;
+}
+
+.input:focus {
+  outline: none;
 }
